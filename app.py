@@ -134,7 +134,7 @@ def generate_rate_confirmation_memory(data, logo_path="gflogo.png", target_page_
     # Tabela
     table_data = [
         ["Handling Units", "Package Type", "Pieces", "HAZMAT", "List of Items", "Total Weight"],
-        ["0", "Pallet", "1", " ", "FAK", "37,000"]
+        ["0", "Pallet", "1", " ", "/", "/"]
     ]
     table = Table(table_data, colWidths=[90, 90, 90, 90, 90, 90], rowHeights=12)
     table.setStyle(TableStyle([
